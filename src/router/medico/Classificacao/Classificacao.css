@@ -10,7 +10,7 @@
 .content-container {
     width: 95%;
     max-width: 600px;
-    background-color: #d3d0d0 !important;
+    background-color: #c4c4c4 !important;
     border-radius: 10px;
     min-height: 400px;
     box-shadow: 1px 3px 3px 3px rgba(0, 12, 12, 0.185);
@@ -29,11 +29,11 @@
 }
 
 .content-text {
-    margin: 15px 10px;
     text-align: justify;
     font-weight: 600;
     font-size: large;
-
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .grid-card{
@@ -73,10 +73,16 @@
 
 }
 
+.card-1:hover {
+    background-color: #f44336;
+}
+
 .card-2 {
     border: 3px solid #ff9800 !important;
+}
 
-
+.card-2:hover {
+    background-color: #ff9800;
 }
 
 .card-3 {
@@ -84,11 +90,64 @@
 
 }
 
-.card-4 {
-    border: 3px solid #2196f3 !important;
-
+.card-3:hover {
+    background-color: #4caf50;
 }
 
+.card-4 {
+    border: 3px solid #2196f3 !important;
+}
+
+.card-4:hover {
+    background-color: #2196f3;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    
+}
+
+.btn-classificar{
+    background-color: #AC0606 !important;
+    color: #fff !important;
+    margin-top: 30px !important;
+    padding: 25px 50px !important;
+    border-radius: 5px;
+    margin-bottom: 60px !important;
+    transition: background-color 0.3s ease;
+    border-color: #fff;
+}
+
+.btn-classificar:hover{
+    background-color: #ffffff !important;
+    color: #AC0606 !important;
+    border-color: #AC0606;
+}
+
+.btn-voltar{
+    background-color: #ffffff !important;
+    color: #AC0606 !important;
+    margin-top: 30px !important;
+    padding: 25px 50px !important;
+    border-radius: 5px;
+    margin-bottom: 60px !important;
+    transition: background-color 0.3s ease;
+    border-color: #AC0606;
+}
+
+
+.btn-voltar:hover {
+    background-color: #AC0606 !important;
+    color: #ffffff !important;
+}
+
+
+.grid-card {
+    margin-bottom: 20px;
+}
 
 @media (max-width: 767px) {
     .card {

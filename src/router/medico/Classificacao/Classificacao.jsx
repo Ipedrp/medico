@@ -59,6 +59,18 @@ function Classificacao() {
                 </Grid.Row>
             </Grid>
 
+            <div className="button-container">
+                <button type="submit" className="btn-classificar">
+                    Enviar classificação
+                </button>
+            </div>
+            <div className="button-container">
+                <button type="submit" className="btn-voltar">
+                    Voltar
+                </button>
+            </div>
+
+
         </div>
     )
 }

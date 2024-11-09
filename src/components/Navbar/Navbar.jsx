@@ -29,7 +29,7 @@ function Navbar() {
 
                         {/* Texto de boas-vindas no centro */}
                         <div className="navbar-welcome-text">
-                            <p>Serviço de Atendimento <br /><span>Móvel de Urgência</span></p>
+                            <p>Serviço de Atendimento Móvel de Urgência</p>
                         </div>
 
                         {/* Ícone de logout à direita */}

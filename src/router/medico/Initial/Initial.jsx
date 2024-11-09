@@ -197,7 +197,7 @@ function Initial() {
                 )}
                 <Link to="/classificacao">
                     <Button type="submit" className="btn-atendimentoRetirar">
-                        Cassificar
+                        Classificar
                     </Button>
                 </Link>
 
